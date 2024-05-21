@@ -1,5 +1,5 @@
-# MXEN3002 Mechatronics Automation progject
-
+# MXEN3002 Mechatronics Automation project
+THIS REPOSITORY IS ONLY TO BE USED FOR PORTFOLIO PURPOSES
 ### Date completed
 21/05/2024, completed 70/70 marks.
 - For integration, whenever an error occurs on the prime station, the slave stations down the line go into pause mode, not error mode.
