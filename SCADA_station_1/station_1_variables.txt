@@ -1,0 +1,24 @@
+HOST	NAME	DATATYPE	ADDRESS	COMMENT	TAGLINK	RW	POU
+	Station_1B2	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In01	Ejection Cylinder Extended	TRUE	RW	
+	Station_1B1	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In02	Ejection Cylinder retracted	TRUE	RW	
+	Station_2B1	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In03	Workpiece gripped	TRUE	RW	
+	Station_3S1	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In04	arm_in_magazine	TRUE	RW	
+	Station_3S2	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In05	arm_in_downstream	TRUE	RW	
+	Station_B4	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In06	Magzine empty	TRUE	RW	
+	Panel_S1	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In08	start_button	TRUE	RW	
+	Panel_S2	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In09	stop_button	TRUE	RW	
+	Panel_S4	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In11	reset_button	TRUE	RW	
+	Station_1Y1	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out00	Magzine eject	TRUE	RW	
+	Station_2Y1	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out01	Vacuum on	TRUE	RW	
+	Station_2Y2	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out02	Ejector_Pulse_On	TRUE	RW	
+	Station_3Y1	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out03	arm_2_magazine	TRUE	RW	
+	Station_3Y2	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out04	arm_2_downstream	TRUE	RW	
+	Station_H1	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out08	start light	TRUE	RW	
+	Station_H2	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out09	reset light	TRUE	RW	
+	Panel_H3	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out10	Q1 light	TRUE	RW	
+	Panel_H4	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out11	Q2 light	TRUE	RW	
+	middle_pos_state	BOOL			TRUE	RW	
+	SCADA_START	BOOL			IN	RW	
+	SCADA_STOP	BOOL			IN	RW	
+	SCADA_Reset	BOOL			IN	RW	
+	workpiece_ready	BOOL			TRUE	RW	

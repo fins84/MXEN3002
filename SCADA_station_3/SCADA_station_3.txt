@@ -1,0 +1,30 @@
+HOST	NAME	DATATYPE	ADDRESS	COMMENT	TAGLINK	RW	POU
+	Station_1B2	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In05	Branch 1 Extended	TRUE	RW	
+	Station_1B1	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In04	Branch 1 Retracted	TRUE	RW	
+	Station_B4	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In03	Slide Full	TRUE	RW	
+	Station_3S1	BOOL		arm_in_magazine	TRUE	RW	
+	Station_3S2	BOOL		arm_in_downstream	TRUE	RW	
+	Station_2B1	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In06	Branch 2 Retracted	TRUE	RW	
+	Panel_S1	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In08	start_button	TRUE	RW	
+	Panel_S2	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In09	stop_button	TRUE	RW	
+	Panel_S4	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In11	reset_button	TRUE	RW	
+	Station_K1	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out00	Conveyor Motor ON	TRUE	RW	
+	Station_1Y1	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out01	Branch 1 to extend	TRUE	RW	
+	Station_2Y1	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out02	Branch 2 extended	TRUE	RW	
+	Station_3Y1	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out03	Stopper to Retract	TRUE	RW	
+	Station_3Y2	BOOL		arm_2_downstream	TRUE	RW	
+	Station_H1	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out08	start light	TRUE	RW	
+	Station_H2	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out09	reset light	TRUE	RW	
+	Panel_H3	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out10	Q1 light	TRUE	RW	
+	Panel_H4	BOOL	IOBus://rack#0/slot#3/Ch1_Out/Ch1_Out11	Q2 light	TRUE	RW	
+	Station_2B2	BOOL	IOBus://rack#0/slot#2/Ch1_In/Ch1_In07	Branch 2 Extended	TRUE	RW	
+	eject_magenta	BOOL			TRUE	RW	
+	eject_black	BOOL			TRUE	RW	
+	eject_metallic	BOOL			TRUE	RW	
+	black_cnt	INT			TRUE	RW	
+	metallic_cnt	INT			TRUE	RW	
+	magenta_cnt	INT			TRUE	RW	
+	workpiece_in_queue	BOOL			TRUE	RW	
+	SCADA_start	BOOL			IN	RW	
+	SCADA_stop	BOOL			IN	RW	
+	SCADA_reset	BOOL			IN	RW	
